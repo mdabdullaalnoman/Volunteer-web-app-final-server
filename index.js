@@ -100,5 +100,4 @@ app.delete('/delete/:id', (req, res) => {
     })
 });
 
-// app.listen(process.env.PORT || port);
-app.listen(5000);
+app.listen(process.env.PORT || port);
